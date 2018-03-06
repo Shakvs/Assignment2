@@ -57,7 +57,7 @@ class GoogleDriveClientController extends Controller
 
         if ($client->getAccessToken()) {
             $params = array(
-                'pageSize' => 15,
+                'pageSize' => 50,
                 'fields' => 'nextPageToken, files(id, name,mimeType,size,webViewLink )'
             );
             $results = $service->files->listFiles($params);

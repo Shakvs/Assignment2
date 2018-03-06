@@ -107,12 +107,14 @@
     </style>
 </head>
 <body>
+<h3 > Goolgel Drive File List</h3>
 <div class=" links" align="right"> <a href="{{ URL('/save') }}" class="button">Save </a>
     <a href="{{ URL('/logout') }}">Logout</a></div>
+<br>
 @if(Session::has('message'))
     <p class="alert {{ Session::get('alert-class', 'alert-info') }}" align="center" style="color: #c7254e;">{{ Session::get('message') }}</p>
 @endif
-<div class="flex-center position-ref full-height">
+<div >
 
 
     <table class="table">
