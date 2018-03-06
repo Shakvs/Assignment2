@@ -3,7 +3,7 @@
 
 
 
-Mysql database sql dump file at sql folder https://github.com/Shakvs/cashutest/sql/gdfiles.sql
+Mysql database sql dump file at sql folder https://github.com/Shakvs/cashutest/blob/master/sql/gdfiles.sql
 
 
 
